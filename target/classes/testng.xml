@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
             <class name="Colectv_Login.Login_Page"/> 
-    <!--  <class name="Colectv_Login.BrokenLinks"/> -->
+    <class name="Colectv_Login.BrokenLinks"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
