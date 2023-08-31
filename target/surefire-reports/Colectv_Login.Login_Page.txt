@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Colectv_Login.Login_Page
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.47 s -- in Colectv_Login.Login_Page

@@ -1,6 +1,7 @@
 package Colectv_Login;
 
 
+import org.testng.annotations.Test;
 import java.util.Set;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
@@ -21,7 +22,9 @@ import com.twilio.rest.api.v2010.account.Message;
 public class Login_Page {
 	
 	public static final String ACCOUNT_SID = "AC9107508d214f837b5edfb68f0827dc48";
-	public static final String AUTH_TOKEN = "5b475ad4603a8ddb2d483c4d7b783c1b";
+	//public static final String AUTH_TOKEN = "5b475ad4603a8ddb2d483c4d7b783c1b";
+	public static final String AUTH_TOKEN = "82df4eac568ea8cd625074a63af0bc3c";
+	
 	
 	public WebDriver driver;
 	

@@ -1,5 +1,6 @@
 package Colectv_Login;
 
+import org.testng.annotations.Test;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
@@ -10,14 +11,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class BrokenLinks {
 
-	public static void main(String[] args) {
+	//public static void main(String[] args) {
+	@Test
+	public static void Links() {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://hr.duke.edu/benefits");
+		driver.get("https://dcrihome.dcri.org/");
 
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-31T14:20:13Z" name="Surefire suite" finished-at="2023-08-31T14:20:38Z" duration-ms="25556">
+    <groups>
+    </groups>
+    <test started-at="2023-08-31T14:20:13Z" name="Surefire test" finished-at="2023-08-31T14:20:38Z" duration-ms="25556">
+      <class name="Colectv_Login.Login_Page">
+        <test-method signature="Colectiv_MFA_Login()[pri:0, instance:Colectv_Login.Login_Page@1aa08091]" started-at="2023-08-31T14:20:13Z" name="Colectiv_MFA_Login" finished-at="2023-08-31T14:20:38Z" duration-ms="25443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Colectiv_MFA_Login -->
+      </class> <!-- Colectv_Login.Login_Page -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
