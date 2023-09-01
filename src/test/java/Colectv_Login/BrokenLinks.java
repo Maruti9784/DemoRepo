@@ -23,7 +23,7 @@ public class BrokenLinks {
 		driver.manage().window().maximize();
 		driver.get("https://dcrihome.dcri.org/");
 
-		List<WebElement> links = driver.findElements(By.tagName("a"));
+		List<WebElement> links = driver.findElements(By.tagName("b"));
 
 		System.out.println("No of links are " + links.size());
 
