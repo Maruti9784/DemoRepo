@@ -54,9 +54,9 @@ public class Login_Page {
 		
 		
 		
-		//driver.findElement(By.xpath("//button[@type='button']")).click();
+		driver.findElement(By.xpath("//button[@type='button']")).click();
 		
-		driver.findElement(By.xpath("//button[@type='buttonsadf']")).click();
+		//driver.findElement(By.xpath("//button[@type='buttonsadf']")).click();
 		
 		//Thread.sleep(2000);
 		
