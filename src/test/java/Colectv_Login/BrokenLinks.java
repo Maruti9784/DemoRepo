@@ -21,9 +21,9 @@ public class BrokenLinks {
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://dcrihome.dcri.org/");
+		//driver.get("https://dcrihome.dcri.org/");
 
-		List<WebElement> links = driver.findElements(By.tagName("b"));
+		List<WebElement> links = driver.findElements(By.tagName("a"));
 
 		System.out.println("No of links are " + links.size());
 
